@@ -616,6 +616,7 @@
   "refs": [
     "refs/heads/feat/wait-for-confirms",
     "refs/heads/main",
+    "refs/heads/subscribe-blocks",
     "refs/tags/0.1.0",
     "refs/tags/0.1.1",
     "refs/tags/0.1.2",
