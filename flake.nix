@@ -63,6 +63,22 @@
   inputs."ethers-0_1_5".inputs.nixpkgs.follows = "nixpkgs";
   inputs."ethers-0_1_5".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."ethers-0_1_6".dir   = "0_1_6";
+  inputs."ethers-0_1_6".owner = "nim-nix-pkgs";
+  inputs."ethers-0_1_6".ref   = "master";
+  inputs."ethers-0_1_6".repo  = "ethers";
+  inputs."ethers-0_1_6".type  = "github";
+  inputs."ethers-0_1_6".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."ethers-0_1_6".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
+  inputs."ethers-0_1_7".dir   = "0_1_7";
+  inputs."ethers-0_1_7".owner = "nim-nix-pkgs";
+  inputs."ethers-0_1_7".ref   = "master";
+  inputs."ethers-0_1_7".repo  = "ethers";
+  inputs."ethers-0_1_7".type  = "github";
+  inputs."ethers-0_1_7".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."ethers-0_1_7".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
