@@ -119,6 +119,14 @@
   inputs."ethers-0_2_2".inputs.nixpkgs.follows = "nixpkgs";
   inputs."ethers-0_2_2".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
+  inputs."ethers-0_2_3".dir   = "0_2_3";
+  inputs."ethers-0_2_3".owner = "nim-nix-pkgs";
+  inputs."ethers-0_2_3".ref   = "master";
+  inputs."ethers-0_2_3".repo  = "ethers";
+  inputs."ethers-0_2_3".type  = "github";
+  inputs."ethers-0_2_3".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."ethers-0_2_3".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
